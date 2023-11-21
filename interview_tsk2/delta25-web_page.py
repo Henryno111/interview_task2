@@ -15,7 +15,7 @@ class BasicHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
 <title>python web page</title>
 <style>
 body {
-  font-size: 15px;
+  font-size: 8px;
   font-family: cursive;
   background-color: grey;
 }
@@ -33,8 +33,9 @@ table, th, td {
 </style>
 </head>
 <body>
-<h1>Election results table Delta state/h1>
+<h1>Delta LG25 election results table</h1>
 <p>Page of election result in delta</p>
+<center>
 <table style:"width= 100%">
 <tr>
 <th>Political party</th>
@@ -77,6 +78,7 @@ table, th, td {
 <td>428</td>
 </tr>
 </table>
+</center>
 </body>
 </html>""")
         else:
